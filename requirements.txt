@@ -1,1 +1,2 @@
-# Intentionally left empty so the build fails on the "import uvicorn" sanity check.
+uvicorn===
+nonexistent-package==0.0.0
