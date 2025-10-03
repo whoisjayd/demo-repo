@@ -1,2 +1,1 @@
-uvicorn===
-nonexistent-package==0.0.0
+uvicorn
