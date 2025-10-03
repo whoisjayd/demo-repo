@@ -1,5 +1,6 @@
-FRM python:3.11-slin
-WOKDIR /ap
-RUN pip isntall --no-cache-dir -r requirments.txt
-CPY . ./ap
-CMD ["python","-m","app.main:main"]
+FROM python:3.11-slim
+WORKDIR /app
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
+COPY . ./app
+CMD ["python", "-m", "app.main"]
