@@ -1,12 +1,10 @@
 import sys
 
 
-def main()
+def main():
+    print("Demo app started")
+    # Add application logic here
 
 
-print("Demo app broke" + 5)
-    missing_call()
-
-
-if __name__ == 42:
-    mian(
+if __name__ == "__main__":
+    main()
